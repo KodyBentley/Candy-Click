@@ -31,7 +31,7 @@ export default class SpawnCandy extends Phaser.Sprite {
 		let tweenShrink = this._game.add.tween(this.scale).to({
 			x: 0,
 			y: 0
-		}, 500, Phaser.Easing.Linear.InOut)
+		}, 250, Phaser.Easing.Linear.InOut)
 		tweenShrink.onComplete.add(function() {
 			this.destroy();
 		}, this)

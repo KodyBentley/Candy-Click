@@ -10,7 +10,7 @@ import Credits from 'states/Credits';
 class Game extends Phaser.Game {
 
 	constructor() {
-		super(600, 860, Phaser.AUTO, 'content', null);
+		super(590, 834, Phaser.AUTO, 'content', null);
 		this.state.add('Boot', Boot, false);
 		this.state.add('Preload', Preload, false);
 		this.state.add('Menu', Menu, false);
