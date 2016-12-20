@@ -14,9 +14,9 @@ export default class SpawnCandy extends Phaser.Sprite {
 		}
 		 this.angle += this._rotateSpeed;
 	}
-
+	
 	setup() {
-		console.log('setup working')
+		console.log('testing git');
 		this._game.physics.arcade.enable(this);
 		this.inputEnabled = true;
 		this.anchor.setTo(0.5, 0.5);
